@@ -1,0 +1,7 @@
+android/arch/lifecycle/Lifecycle.class
+android/arch/lifecycle/Lifecycle$Event.class
+android/arch/lifecycle/Lifecycle$State.class
+android/arch/lifecycle/LifecycleObserver.class
+android/arch/lifecycle/LifecycleRegistryOwner.class
+android/arch/lifecycle/OnLifecycleEvent.class
+com/miracles/dexsplit/mp/A.class

@@ -1,0 +1,22 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation 'com.android.tools.build:builder:3.0.1'
+    implementation 'com.android.tools.build:gradle-core:3.0.1'
+}
+
+
+//uploadArchives {
+//    repositories {
+//        mavenDeployer {
+//            repository(url: uri('../repo'))
+//            pom.version = "1.0.1"
+//            pom.artifactId = "dexsplit"
+//            pom.groupId = "com.miracles.dexsplit"
+//        }
+//    }
+//}
+apply from:rootProject.file("gradle/gradle-mvn-push.gradle")
