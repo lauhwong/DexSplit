@@ -4,6 +4,6 @@
 }
 #优先级高于keep
 -split rx.**
--split android.support.**
+#-split android.support.**
 #dexOption 空格分开
 -option --minimal-main-dex

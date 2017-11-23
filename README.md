@@ -15,7 +15,7 @@ repositories {
         }
     }
 dependencies {
-        classpath 'com.miracles.dexsplit:dexsplit:1.0.0-SNAPSHOT'
+        classpath 'com.github.lauhwong:dexsplit:1.0.0-SNAPSHOT'
     }
 ```
 2.在application插件中引入dexSplit插件。

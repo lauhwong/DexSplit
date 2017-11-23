@@ -2,13 +2,16 @@
 
 buildscript {
     repositories {
-        maven { url uri('./repo') }
+//        maven { url uri('./repo') }
         google()
         jcenter()
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots/'
+        }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0'
-        classpath 'com.miracles.dexsplit:dexsplit:1.0.2'
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.github.lauhwong:dexsplit:1.0.0-SNAPSHOT'
     }
 }
 
